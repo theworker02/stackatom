@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/stackatom",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Stack config/atom key checks for twelve-factor services.",
+  "bin": {
+    "stackatom": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/stackatom.git"
+  },
+  "homepage": "https://theworker02.github.io/stackatom/",
+  "keywords": [
+    "stack",
+    "atom",
+    "config",
+    "cli",
+    "toolkit"
+  ]
+}
